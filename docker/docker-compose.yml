@@ -1,0 +1,13 @@
+version: "3.0"
+services:
+    webhook-server:
+        build:
+            context: ../
+            dockerfile: docker/Dockerfile
+        environment:
+            MODULE_NAME: "webhook-server"
+            MODULE_TYPE: "Input"
+            EGRESS_URLS: "https://testdockercompose.free.beeceptor.com"
+            HOST_PORT: 80
+        ports:
+            - 80:80
