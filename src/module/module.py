@@ -7,12 +7,14 @@ Edit this file to implement your module.
 
 from logging import getLogger
 from api.send_data import send_data
-from bottle import post, request, response
+from bottle import post, put, request, response, route
 
 log = getLogger("module")
 
 
 @post("/")
+@put("/")
+@route("/", method="PATCH")
 def module_main():
     """
     Implements module's main logic for inputting data.
@@ -22,9 +24,6 @@ def module_main():
     log.debug("Inputting data...")
 
     try:
-        # YOUR CODE HERE
-        # ----------------------------------------------------------------
-
         # receive data from the previous module
         input_data = request.json
 
