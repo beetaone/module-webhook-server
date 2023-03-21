@@ -3,7 +3,7 @@
 |           |                                                                                     |
 | --------- | ----------------------------------------------------------------------------------- |
 | Name      | Webhook Server                                                                      |
-| Version   | v1.0.1                                                                              |
+| Version   | v1.0.0                                                                              |
 | DockerHub | [weevenetwork/webhook-server](https://hub.docker.com/r/weevenetwork/webhook-server) |
 | authors   | Jakub Grzelak                                                                       |
 

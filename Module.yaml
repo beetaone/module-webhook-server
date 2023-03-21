@@ -2,6 +2,7 @@ displayName: "Webhook Server" # Display name for the module that will be display
 moduleName: "webhook-server" # Module name that will be used to reference the module, and uniquely identify the module and their versions.
 description: "Creates a webhook server where HTTP/s requests can be send" # Module description that will be displayed in the UI.
 versionName: "v1.0.0" # Module version name that will be used to reference the module version, and uniquely identify the module version with a common name.
+versionNumber: 1 # Module version number that will be used to reference the module version, and uniquely identify the module version with a number.
 isPublic: true # Boolean value that indicates if the module is Public or Private.
 categories: # Array of category that will be used to group the module in the UI.
     - "Ingress"
