@@ -3,7 +3,7 @@
 |           |                                                                                     |
 | --------- | ----------------------------------------------------------------------------------- |
 | Name      | Webhook Server                                                                      |
-| Version   | v1.0.1                                                                              |
+| Version   | v1.0.0                                                                              |
 | DockerHub | [weevenetwork/webhook-server](https://hub.docker.com/r/weevenetwork/webhook-server) |
 | authors   | Jakub Grzelak                                                                       |
 
@@ -21,7 +21,7 @@
 
 ## Description
 
-This module takes and processes ingress from HTTP POST requests.
+This module creates a webhook server. it accepts and processes ingress from HTTP POST/POST/PATCH requests.
 
 NOTE: currently only IPv4 is supported.
 
@@ -56,7 +56,7 @@ requests
 
 ## Input
 
-HTTP ReST POST request with request-body
+HTTP ReST POST/POST/PATCH request with request-body
 
 ## Output
 
